@@ -49,6 +49,8 @@ class ImageModel:
 # create deployment
 image_model = ImageModel.bind()
 
-# run it
+serve.run(image_model)
+# or cmd
 # serve run serve_torchvision:image_model
+
 # see dashboard
