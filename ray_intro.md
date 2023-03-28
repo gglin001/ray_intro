@@ -45,7 +45,7 @@ https://docs.ray.io/en/latest/ray-core/configure.html
 
 [O1_tiny_demo](O1_tiny_demo.py)
 [O2_actors](O2_actors.py)
-[O3_actors](O3_data.py)
+[O3_data](O3_data.py)
 [O4_serve](O4_serve.py)
 
 ### a demo using pytorch
