@@ -18,13 +18,13 @@ https://towardsdatascience.com/modern-parallel-and-distributed-python-a-quick-tu
 Tasks, Actors, Objects(ray-core)
 https://docs.ray.io/en/latest/ray-core/key-concepts.html
 
-ML workloads with Ray(common usage of ray)
-https://docs.ray.io/en/latest/ray-overview/workloads.html
-
-Ray Cluster
+Ray Cluster Key Concepts
 https://docs.ray.io/en/latest/cluster/key-concepts.html
 launching-clusters on-premises
 https://docs.ray.io/en/latest/cluster/vms/user-guides/launching-clusters/on-premises.html
+
+ML workloads with Ray(common usage of ray)
+https://docs.ray.io/en/latest/ray-overview/workloads.html
 
 Ray dashboard(monitoring and debugging tools)
 https://docs.ray.io/en/latest/ray-observability/overview.html
@@ -40,11 +40,8 @@ https://docs.ray.io/en/latest/ray-core/configure.html
 
 ### a tiny python demo
 
-`O1_tiny_demo.py`
-
-### a demo about the actors
-
-TODO
+[O1_tiny_demo](O1_tiny_demo.py)
+[O2_actors](O2_actors.py)
 
 ### a demo using pytorch
 

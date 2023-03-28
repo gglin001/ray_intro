@@ -9,3 +9,6 @@ ray start --head \
 # pip install -U "ray[default]"
 # NOTE: ip may differ
 ray start --address='192.168.2.164:8266'
+
+# monitor
+# 192.168.2.164:8265
