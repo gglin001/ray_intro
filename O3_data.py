@@ -1,12 +1,15 @@
+import os
 import ray
 import ray.data
 
 # https://docs.ray.io/en/latest/data/getting-started.html
 ray.init()
 
+HERE = os.path.dirname(os.path.abspath(__file__))
+
 # Create a dataset
 # dataset = ray.data.read_csv("s3://anonymous@air-example-data/iris.csv")
-dataset = ray.data.read_csv("/repos/Github/ray/ray_intro/air-sample-data/iris.csv")
+dataset = ray.data.read_csv(f"{HERE}/air-sample-data/iris.csv")
 
 print(type(dataset))
 dataset.show(limit=1)
@@ -37,3 +40,8 @@ import os
 transformed_dataset.write_parquet("iris")
 
 print(os.listdir("iris"))
+
+# read the data
+ds = ray.data.read_parquet(f"{HERE}/iris")
+
+print(ds.schema())
