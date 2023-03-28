@@ -45,3 +45,8 @@ print(os.listdir("iris"))
 ds = ray.data.read_parquet(f"{HERE}/iris")
 
 print(ds.schema())
+
+
+# %%
+# See more about NumPy and Tensor support at
+# https://docs.ray.io/en/latest/data/dataset-tensor-support.html

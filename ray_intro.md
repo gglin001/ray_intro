@@ -23,6 +23,9 @@ https://docs.ray.io/en/latest/cluster/key-concepts.html
 launching-clusters on-premises
 https://docs.ray.io/en/latest/cluster/vms/user-guides/launching-clusters/on-premises.html
 
+Ray AI Runtime (AIR)
+https://docs.ray.io/en/latest/ray-air/getting-started.html
+
 ML workloads with Ray(common usage of ray)
 https://docs.ray.io/en/latest/ray-overview/workloads.html
 
