@@ -50,7 +50,7 @@ https://docs.ray.io/en/latest/ray-core/configure.html
 
 ### a demo using pytorch
 
-TODO
+[serve_torchvision](serve_torchvision.py)
 
 ### a demo on ipu
 
