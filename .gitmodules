@@ -1,0 +1,6 @@
+[submodule "ray-educational-materials"]
+	path = ray-educational-materials
+	url = https://github.com/ray-project/ray-educational-materials
+[submodule "air-sample-data"]
+	path = air-sample-data
+	url = https://github.com/ray-project/air-sample-data
