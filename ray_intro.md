@@ -66,4 +66,7 @@ https://www.datarevenue.com/en-blog/pandas-vs-dask-vs-vaex-vs-modin-vs-rapids-vs
 https://docs.ray.io/en/latest/data/integrations.html
 https://github.com/ray-project/ray/issues/642
 
+ray-serve and TFServing like tools
+https://docs.ray.io/en/latest/serve/index.html
+
 ray also support c++/java/etc
