@@ -51,6 +51,7 @@ https://docs.ray.io/en/latest/ray-core/configure.html
 ### a demo using pytorch
 
 [serve_torchvision](serve_torchvision.py)
+[serve_transformers](serve_transformers.py)
 
 ### a demo on ipu
 
