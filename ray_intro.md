@@ -56,10 +56,6 @@ https://docs.ray.io/en/latest/ray-core/configure.html
 
 TODO
 
-### ray also support c++/java/etc
-
-TODO
-
 ## Others
 
 Spark, Dask, Ray
@@ -68,3 +64,5 @@ https://c-nemri.medium.com/spark-dask-ray-choose-the-right-distributed-computing
 https://www.datarevenue.com/en-blog/pandas-vs-dask-vs-vaex-vs-modin-vs-rapids-vs-ray
 https://docs.ray.io/en/latest/data/integrations.html
 https://github.com/ray-project/ray/issues/642
+
+ray also support c++/java/etc
