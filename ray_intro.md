@@ -16,7 +16,7 @@
 
 Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a toolkit of libraries (Ray AIR) for simplifying ML compute:
 
-[what-is-ray](https://raw.githubusercontent.com/ray-project/ray/master/doc/source/images/what-is-ray-padded.svg)
+[what-is-ray](imgs/what-is-ray-padded.svg)
 
 https://github.com/ray-project/ray
 https://www.ray.io/
