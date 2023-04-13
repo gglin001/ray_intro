@@ -91,6 +91,7 @@ https://c-nemri.medium.com/spark-dask-ray-choose-the-right-distributed-computing
 https://www.datarevenue.com/en-blog/pandas-vs-dask-vs-vaex-vs-modin-vs-rapids-vs-ray
 https://docs.ray.io/en/latest/data/integrations.html
 https://github.com/ray-project/ray/issues/642
+
 see also "Ray v2 Architecture" & "Ray AIR Technical Whitepaper"
 
 ray-serve and TFServing like tools
