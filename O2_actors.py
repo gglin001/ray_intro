@@ -21,12 +21,9 @@ class Counter(object):
 # Create an actor from this class.
 counter = Counter.remote()
 
-# %%
-
 obj_ref = counter.increment.remote()
 assert ray.get(obj_ref) == 1
 
-# %%
 # Methods called on different actors can execute in parallel,
 # and methods called on the same actor are executed serially in the order that they are called.
 # Methods on the same actor will share state with one another, as shown below.

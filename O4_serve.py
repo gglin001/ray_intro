@@ -5,7 +5,6 @@ from ray import serve
 ray.init()
 
 
-# %%
 @serve.deployment
 class MyFirstDeployment:
     # Take the message to return as an argument to the constructor.
@@ -20,5 +19,4 @@ my_first_deployment = MyFirstDeployment.bind("Hello world!")
 handle = serve.run(my_first_deployment)
 print(ray.get(handle.remote()))  # "Hello world!"
 
-# %%
 # any more

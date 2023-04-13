@@ -3,6 +3,7 @@ import ray
 import ray.data
 
 # https://docs.ray.io/en/latest/data/getting-started.html
+
 ray.init()
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -14,7 +15,6 @@ dataset = ray.data.read_csv(f"{HERE}/air-sample-data/iris.csv")
 print(type(dataset))
 dataset.show(limit=1)
 
-# %%
 # Transform the dataset
 import pandas as pd
 
@@ -27,12 +27,10 @@ def transform_batch(df: pd.DataFrame) -> pd.DataFrame:
 transformed_dataset = dataset.map_batches(transform_batch)
 print(transformed_dataset)
 
-# %%
 # Consume the dataset
 batches = transformed_dataset.iter_batches(batch_size=8)
 print(next(iter(batches)))
 
-# %%
 # Save the dataset
 
 import os
@@ -47,6 +45,5 @@ ds = ray.data.read_parquet(f"{HERE}/iris")
 print(ds.schema())
 
 
-# %%
 # See more about NumPy and Tensor support at
 # https://docs.ray.io/en/latest/data/dataset-tensor-support.html

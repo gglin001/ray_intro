@@ -6,6 +6,8 @@
 ## Others
 -->
 
+<!-- links are based on ray v2.3.1 -->
+
 # Ray Introduction
 
 > from GH:
