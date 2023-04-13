@@ -35,7 +35,7 @@ https://towardsdatascience.com/modern-parallel-and-distributed-python-a-quick-tu
 Tasks, Actors, Objects(ray-core)
 https://docs.ray.io/en/latest/ray-core/key-concepts.html
 Other misc
-https://docs.ray./en/latest/ray-core/handling-dependencies.html
+https://docs.ray.io/en/latest/ray-core/handling-dependencies.html
 https://docs.ray.io/en/latest/ray-core/scheduling/resources.html
 Design Patterns & Anti-patterns
 https://docs.ray.io/en/latest/ray-core/patterns/index.html
@@ -49,7 +49,7 @@ Ray AI Runtime (AIR)
 https://docs.ray.io/en/latest/ray-air/getting-started.html
 
 ML workloads with Ray(common usage of ray)
-https://docs.ray.io/en/latest/ray-overview/workloads.html
+https://docs.ray.io/en/latest/ray-overview/use-cases.html
 
 Ray dashboard(monitoring and debugging tools)
 https://docs.ray.io/en/latest/ray-observability/overview.html
