@@ -98,3 +98,9 @@ ray-serve and TFServing like tools
 https://docs.ray.io/en/latest/serve/index.html
 
 ray also support c++/java/etc
+
+## Q&A
+
+> 对于 `O1_tiny_demo.py`, ray 会自动的将 操作拆分并分布到多个 node 中运行吗?
+
+TODO
