@@ -8,6 +8,8 @@
 
 <!-- links are based on ray v2.3.1 -->
 
+<!-- see this repo at https://github.com/gglin001/ray_intro -->
+
 # Ray Introduction
 
 > from GH:
