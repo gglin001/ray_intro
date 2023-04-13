@@ -1,11 +1,28 @@
+<!-- TOC
 # Ray Introduction
+## Quick intro
+## 基础概念
+## Examples Using Ray
+## Others
+-->
+
+# Ray Introduction
+
+> from GH:
+
+Ray is a unified framework for scaling AI and Python applications. Ray consists of a core distributed runtime and a toolkit of libraries (Ray AIR) for simplifying ML compute:
+
+[what-is-ray](https://raw.githubusercontent.com/ray-project/ray/master/doc/source/images/what-is-ray-padded.svg)
 
 https://github.com/ray-project/ray
 https://www.ray.io/
 https://docs.ray.io/en/latest/
 
-paper
-https://arxiv.org/pdf/1712.05889.pdf
+Ray v2 Architecture
+https://docs.google.com/document/d/1tBw9A4j62ruI5omIJbMxly-la5w4q_TjyJgJL_jN2fI/preview#
+
+Ray AIR Technical Whitepaper
+https://docs.google.com/document/d/1bYL-638GN6EeJ45dPuLiPImA8msojEDDKiBx3YzB4_s/preview
 
 ## Quick intro
 
