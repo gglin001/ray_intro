@@ -103,4 +103,20 @@ ray also support c++/java/etc
 
 > 对于 `O1_tiny_demo.py`, ray 会自动的将 操作拆分并分布到多个 node 中运行吗?
 
-TODO
+no, ray 不会自动的做并行处理.
+由于 X.remote() 函数是异步的, 一些 job 可以通过并行化的方式(多个 subjob 放到多个 node 上)来提高效率.
+比如这里的例子: https://docs.ray.io/en/latest/ray-core/examples/highly_parallel.html
+
+> ray 的优点/为什么选择 ray?
+
+也许需要对类似的工具做一些比较(实践)才能说明, 以及这些 link 作为参考
+
+https://www.anyscale.com/blog/why-you-should-build-your-ai-applications-with-ray
+
+TODO: add more links
+
+> ray 如何与 其他并行方法的结合使用
+
+一个例子 [alpa](https://github.com/alpa-projects/alpa) + Ray
+
+https://www.anyscale.com/blog/training-175b-parameter-language-models-at-1000-gpu-scale-with-alpa-and-ray
