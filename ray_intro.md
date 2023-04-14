@@ -120,3 +120,7 @@ TODO: add more links
 一个例子 [alpa](https://github.com/alpa-projects/alpa) + Ray
 
 https://www.anyscale.com/blog/training-175b-parameter-language-models-at-1000-gpu-scale-with-alpa-and-ray
+
+> Ray Collective Communication Lib
+
+https://docs.ray.io/en/master/ray-more-libs/ray-collective.html
